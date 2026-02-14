@@ -9,9 +9,6 @@ app.use(express.json());
 app.use("/api/notes", noteRoutes);
 
 // Root route
-app.get("/", (req, res) => {
-  res.send("Note API is running...");
-});
 
 const PORT = 5000;
 

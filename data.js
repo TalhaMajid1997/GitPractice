@@ -7,12 +7,6 @@ const quotes = [
   "In the middle of difficulty lies opportunity.",
 ];
 
-// Function to pick a random quote
-function getRandomQuote() {
-  const randomIndex = Math.floor(Math.random() * quotes.length);
-  return quotes[randomIndex];
-}
-
 // Function to randomly decide if it adds an emoji
 function decorateQuote(quote) {
   const emojis = ["✨", "🔥", "🌈", "💡", "🎉"];
