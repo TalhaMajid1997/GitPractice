@@ -1,4 +1,6 @@
 // Array of random quotes
+//this is updated branch
+
 const quotes = [
   "The early bird catches the worm!",
   "Life is what happens when you're busy making other plans.",
