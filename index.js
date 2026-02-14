@@ -35,3 +35,11 @@ const deleteNote = (id) => {
   notes.splice(index, 1);
   return deleted;
 };
+
+module.exports = {
+  getAllNotes,
+  getNoteById,
+  createNote,
+  updateNote,
+  deleteNote,
+};
